@@ -1,0 +1,1 @@
+var number1 = "Wow, I am the first variable of this program. But i'm also just a string...do better!"
