@@ -1,0 +1,11 @@
+{
+  "name": "funpractiveapp",
+  "version": "1.0.0",
+  "description": "This is a simple application that will function as a sandbox for me to practice some basic coding skills.\"",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Jostad",
+  "license": "MIT"
+}
