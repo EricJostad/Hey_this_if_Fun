@@ -19,6 +19,9 @@ This repo will serve as a sort of tech demo, practice website where I will start
 ### Technologies
 
 - [HTML](https://html.com/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [Javascript](https://www.javascript.com/)
+- [Node](https://nodejs.org/en/)
 - More to come!
 
 ### Page Images
