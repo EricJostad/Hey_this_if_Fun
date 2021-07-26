@@ -1,7 +1,8 @@
+let box = document.getElementsByClassName('box');
 let movement = 10; 
 
 window.addEventListener('keydown', (event) => {
-    const {style} = block;
+    const {style} = box;
     switch (event.key) {
         case 'ArrowUp': style.top = `${parseInt(style.top) - movement}px`; break;
         case 'ArrowDown': style.top = `${parseInt(style.top) + movement}px`; break;
