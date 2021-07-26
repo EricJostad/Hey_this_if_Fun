@@ -1,4 +1,4 @@
-let box = document.getElementsByClassName('box');
+let box = document.getElementById('white');
 let movement = 10; 
 
 window.addEventListener('keydown', (event) => {
