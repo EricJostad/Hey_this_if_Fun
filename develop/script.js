@@ -1,8 +1,15 @@
-let box = document.getElementById('white');
+let box = document.querySelector('#box');
 let movement = 10; 
 
+
+window.addEventListener('load', () => {
+    box.style.position = 'absolute';
+    box.style.left = '10';
+    box.style.right= '0';
+});
+
+
 window.addEventListener('keydown', (event) => {
-    const {style} = box;
     switch (event.key) {
         case 'ArrowUp': style.top = `${parseInt(style.top) - movement}px`; break;
         case 'ArrowDown': style.top = `${parseInt(style.top) + movement}px`; break;
