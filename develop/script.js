@@ -11,9 +11,17 @@ window.addEventListener('load', () => {
 
 window.addEventListener('keydown', (event) => {
     switch (event.key) {
-        case 'ArrowUp': style.top = `${parseInt(style.top) - movement}px`; break;
-        case 'ArrowDown': style.top = `${parseInt(style.top) + movement}px`; break;
-        case 'ArrowLeft': style.left = `${parseInt(style.left) - movement}px`; break;
-        case 'ArrowRight': style.left = `${parseInt(style.left) + movement}px`; break;
+        case 'ArrowUp': 
+        box.style.top = parseInt(box.style.top) - movement + 'px'; 
+            break;
+        case 'ArrowDown': 
+        box.style.top = parseInt(box.style.top) + movement + 'px'; 
+            break;
+        case 'ArrowLeft': 
+        box.style.top = parseInt(box.style.top) - movement + 'px'; 
+            break;
+        case 'ArrowRight': 
+        box.style.top = parseInt(box.style.top) + movement + 'px'; 
+            break;
     }
 });
