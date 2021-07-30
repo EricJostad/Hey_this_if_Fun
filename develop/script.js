@@ -24,6 +24,7 @@ window.addEventListener('keyup', (event) => {
         case 'ArrowDown':
             box.style.top = parseInt(box.style.top) + movement + 'px';
             break;
+    console.log('I ran!')
     }
     console.log('Event listener for keyup hit and ran.')
 });
