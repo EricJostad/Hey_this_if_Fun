@@ -22,6 +22,8 @@ This repo will serve as a sort of tech demo, practice website where I will start
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [Javascript](https://www.javascript.com/)
 - [Node](https://nodejs.org/en/)
+- [Python](https://www.python.org/)
+- [MySQL](https://www.mysql.com/)
 - More to come!
 
 ### Page Images
