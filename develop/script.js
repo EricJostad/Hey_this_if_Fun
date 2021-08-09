@@ -4,8 +4,8 @@ let movement = 10;
 
 window.addEventListener('load', () => {
     box.style.position = 'absolute';
-    box.style.left = '10';
-    box.style.top = '10';
+    box.style.left = 0;
+    box.style.top = 0;
     console.log('Event listener for load hit and ran.')
 });
 
