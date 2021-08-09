@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
     box.style.position = 'absolute';
     box.style.left = '10';
     box.style.top = '10';
-    console.log('Event listener for laod hit and ran.')
+    console.log('Event listener for load hit and ran.')
 });
 
 
