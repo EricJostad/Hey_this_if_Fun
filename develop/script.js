@@ -1,5 +1,5 @@
 let box = document.querySelector('.box');
-let movement = 10;
+let movement = 5;
 
 
 window.addEventListener('load', () => {
@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
 });
 
 
-window.addEventListener('keyup', (event) => {
+window.addEventListener('keydown', (event) => {
     switch (event.key) {
         case 'ArrowLeft':
             box.style.left = parseInt(box.style.left) - movement + 'px';
