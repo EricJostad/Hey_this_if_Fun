@@ -1,6 +1,6 @@
 let box = document.querySelector('.box');
 let movement = 5;
-
+let conf = alert('Hello! Click Yes to continue or No to kill the page.')
 
 window.addEventListener('load', () => {
     box.style.position = 'absolute';
@@ -28,3 +28,11 @@ window.addEventListener('keydown', (event) => {
     }
     console.log('Event listener for keyup hit and ran.')
 });
+
+function test(){
+
+return console.log('Hey, I ran!')
+
+}
+
+test()
