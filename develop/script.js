@@ -1,6 +1,6 @@
 let box = document.querySelector('.box');
 let movement = 5;
-let conf = alert('Hello! Click Yes to continue or No to kill the page.')
+let isExecuted = confirm("Are you sure to execute this action?")
 
 window.addEventListener('load', () => {
     box.style.position = 'absolute';
