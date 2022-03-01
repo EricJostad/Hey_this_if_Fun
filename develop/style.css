@@ -23,3 +23,10 @@ h1 {
     border-radius: 50%;
     background: gray;
 }
+
+.container{
+    width: 500px;
+    height: 100px;
+    background: white;
+    text-align: center;
+}
