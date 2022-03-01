@@ -12,7 +12,6 @@ function load(isExecuted){
             console.log('Event listener for load hit and ran.')
         });
         
-        
         window.addEventListener('keydown', (event) => {
             switch (event.key) {
                 case 'ArrowLeft':
@@ -31,7 +30,6 @@ function load(isExecuted){
             }
             console.log('Event listener for keyup hit and ran.')
         });
-        
         
     } else {
         console.log('Page was not loaded.')
