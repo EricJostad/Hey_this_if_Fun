@@ -13,6 +13,10 @@ h1 {
     background: white;
 }
 
+#yellow-box{
+    background: yellow;
+}
+
 .circle {
     width: 100px;
     height: 100px;

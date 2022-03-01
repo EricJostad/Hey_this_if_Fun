@@ -11,7 +11,7 @@ function load(isExecuted){
             box.style.top = 0;
             console.log('Event listener for load hit and ran.')
         });
-        
+
         window.addEventListener('keydown', (event) => {
             switch (event.key) {
                 case 'ArrowLeft':
